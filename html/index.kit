@@ -16,36 +16,43 @@
 <body>
     <header class="header">
 
-        <nav class="nav">
-            <button class="burger-btn">
+        <button class="burger-btn">
+            <div class="burger-btn__box">
+                <div class="burger-btn__bars"></div>
+            </div>
+        </button>
+        <div class="wrapper">
+            <nav class="nav">
+                <!-- <button class="burger-btn">
                 <div class="burger-btn__box">
                     <div class="burger-btn__bars"></div>
                 </div>
-            </button>
-            <div class="nav__logo">
-                <a href="#home">
-                    <img src="../dist/img/christmas-tree.svg" alt="Forest Group Logo" class="nav__logo-img">
-                </a>
-                <p class="nav__logo-text">Forest</p>
-            </div>
+            </button> -->
+                <div class="nav__logo">
+                    <a href="#home">
+                        <img src="../dist/img/christmas-tree.svg" alt="Forest Group Logo" class="nav__logo-img">
+                    </a>
+                    <p class="nav__logo-text">Forest</p>
+                </div>
 
-            <nav class="nav nav-mobile">
-                <a href="#home" class="nav__item">Home</a>
-                <a href="#about" class="nav__item">O nas</a>
-                <a href="#offer" class="nav__item">Oferta</a>
-                <a href="#contact" class="nav__item">Kontakt</a>
+                <nav class="nav nav-mobile">
+                    <a href="#home" class="nav__item">Home</a>
+                    <a href="#about" class="nav__item">O nas</a>
+                    <a href="#offer" class="nav__item">Oferta</a>
+                    <a href="#contact" class="nav__item">Kontakt</a>
+                </nav>
+                <nav class="nav nav-desktop">
+                    <a href="#home" class="nav__item">Home</a>
+                    <a href="#about" class="nav__item">O nas</a>
+                    <a href="#offer" class="nav__item">Oferta</a>
+                    <a href="#contact" class="nav__item">Kontakt</a>
+                </nav>
             </nav>
-            <nav class="nav nav-desktop">
-                <a href="#home" class="nav__item">Home</a>
-                <a href="#about" class="nav__item">O nas</a>
-                <a href="#offer" class="nav__item">Oferta</a>
-                <a href="#contact" class="nav__item">Kontakt</a>
-            </nav>
-        </nav>
+        </div>
         <div class="head">
             <div class="head__shadow"></div>
-            <h1 class="head__title">Forest Group</h1>
-            <p class="head__subtitle">Najpiękniejszy park w Twojej okolicy!</p>
+            <h1 class="head__title wrapper">Forest Group</h1>
+            <p class="head__subtitle wrapper">Najpiękniejszy park w Twojej okolicy!</p>
         </div>
 
     </header>
