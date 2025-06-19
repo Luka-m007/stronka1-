@@ -188,7 +188,7 @@ body {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.65);
+		background-color: rgba(0, 0, 0, 0.55);
 	}
 
 	&__title {
@@ -232,6 +232,41 @@ body {
 
 	&__text {
 		font-size: 1.3rem;
+		margin-bottom: 2em;
+	}
+}
+
+//HERO IMG
+
+.hero-img {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4em 0;
+	width: 100%;
+	background-image: url('/dist/img/girl-5785590_640.jpg');
+	background-position: center;
+	background-size: cover;
+
+	&-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.55);
+	}
+
+	&__box {
+		padding: 2em 3em;
+		text-align: center;
+		border: 1px solid rgba(255, 255, 255, 0.55);
+		z-index: 1;
+	}
+
+	&__title {
+		font-size: 2.2rem;
+		color: rgb(255, 255, 255);
 	}
 }
 
@@ -250,6 +285,18 @@ body {
 		}
 		&__text {
 			font-size: 1.4rem;
+		}
+	}
+
+	.hero-img {
+		padding: 6em 0;
+
+		&__box {
+			padding: 2em 12em;
+		}
+
+		&__title {
+			font-size: 2.4rem;
 		}
 	}
 }
@@ -320,6 +367,18 @@ body {
 			max-width: 1200px;
 			font-size: 1.6rem;
 			line-height: 2;
+		}
+	}
+
+	.hero-img {
+		padding: 8em 0;
+		background-image: url('/dist/img/girl-5785590_1920.jpg');
+
+		&__box {
+			padding: 2.5em 18em;
+		}
+		&__title {
+			font-size: 2.8rem;
 		}
 	}
 }
